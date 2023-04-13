@@ -1,0 +1,113 @@
+{
+    "header": {
+        "acerca.redalyc": "About Redalyc",
+        "mision": "Mision",
+        "consejo": "Advisory Board",
+        "directorio": "Directory",
+        "cronologia": "Chronology",
+        "reconocimientos": "International Awards",
+        "oai": "OAI-PMH",
+        "sitio": "Redalyc on your website",
+        "uso": "Legal use",
+        "publicaciones": "Publications",
+        "acceso": "Diamond Open Access",
+        "valores": "Principles and Values",
+        "jats": "Digital Publication Technology (XML JATS)",
+        "marcalyc": "Marcalyc Markup System (XML JATS)",
+        "ojs": "OJS integration",
+        "capacitacion": "XML JATS Capacitation",
+        "generacion": "ePUB, PDF HTML Automatic Generation",
+        "visor": "Article viewer",
+        "movil": "Mobile article viewer",
+        "indexacion": "Journal Indexings",
+        "consolidadas.redalyc": "Redalycs' consolidated journal index",
+        "consolidadas.amelica": "AmeliCAs' in consolidation journal index",
+        "evaluacion": "Evaluation Criteria",
+        "postulacion": "Postulation Process",
+        "servicios": "Services",
+        "redalyc": "Redalyc",
+        "acerca.genero": "About",
+        "pais": "Search by country"
+    },
+    "navegacion": {
+        "total": "More than <span class='number'>{{ articles }} articles</span> extracted from <span class='number'>{{ journals }} journals</span> in <span class='number'>{{ countries }} countries</span>",
+        "total.busqueda": "More than <span class='number'>{{ articles }} articles</span>",
+        "buscador": "Search for full-text articles",
+        "clave": "Articles by keyword",
+        "conocimiento": "Knowledge representation",
+        "pais": "Articles by country",
+        "recientes": "More recent",
+        "sparql": "Knowledge base in  SPARQL",
+        "texto-num-articulo": "Articles",
+        "texto-num-articulo2": "extracted from",
+        "texto-num-rev": "Indexed",
+        "texto-num-rev2": "Journals from",
+        "texto-num-paises": "Countries"
+    },
+    "home": {
+        "buscar": "Search",
+        "mensaje": "The Diamond Open Access at the service of the Sustainable Development Goals",
+        "mensaje1": "17 goals to transform our world",
+        "recientes": "Recent publications",
+        "mas": "Display more articles",
+        "cargando": "Loading Articles...",
+        "sparql": "SPARQL access point with the available data to access the results for better analysis: <a style='color: #6b956f;' href='http://sparql.amelica.org/knowledgebase/climateaction/datastore'>{{ value }}</a>"
+    },
+    "busqueda": {
+        "banner": {
+            "pais": "Select country:",
+            "palabras": "Search by keyword",
+            "general": "General search",
+            "buscar.general": "Type the search word",
+            "buscar.clave": "Type the keyword to search"
+        },
+        "secciones": {
+            "principal": "Journal articles",
+            "modo": "Results visualization mode",
+            "tabla": "Table",
+            "lista": "List",
+            "resultados": "Results for: {{ text }} in journal articles",
+            "resultados.pais": "Articles published in journals from: {{ value }}",
+            "total": "{{ value1 }} from {{ value2 }} to {{ value3 }} articles"
+        },
+        "filtros": {
+            "titulo": "Search filters",
+            "Año": "Year",
+            "Idioma": "Language",
+            "Disciplina": "Discipline",
+            "País": "Country",
+            "mas": "Show more",
+            "menos": "Show less",
+            "aplicar": "Apply filters"
+        },
+        "tabla": {
+            "titulo": "Title",
+            "autor": "Authors",
+            "revista": "Journal",
+            "numero": "Number",
+            "texto": "Full text"
+        }
+    },
+    "estatica": {
+        "titulo1": "CONTEXT",
+        "parrafo1": "Climate change is defined as the global variation in the climate of the Earth. Although greenhouse gas emissions have decreased due to movement restrictions and recessions derived from the COVID-19 pandemic, climate change is not going to pause. Urgent  measures are needed to deal with the climate emergency with the aim of saving lives and livelihood.",
+        "titulo2": "DESCRIPTION",
+        "parrafo2": "In accordance with the objectives of the 2030 agenda on sustainable development, Redalyc joint the efforts of institutions and countries to build a better world. In this occasion, the contribution is the semantic collection on Climate Action, which has the aim of consolidating scientific contents published in indexed journals of Open Access Redalyc on topics such as: climate change, environmental degradation, greenhouse gas emissions, among others.",
+        "titulo3": "METHODOLOGY",
+        "parrafo3": "The Climate Action Collection was built from the database of Redalyc.org which indexes non-commercial open access journals of certified quality. The Climate Action Collection has X scientific articles which includes concepts and relationships as well as their attributes. The articles that are part of this collection are the result of applying a series of algorithms that makes a curatorship automatically based on an official thesaurus of terms of the United Nations Educational, Scientific and Cultural Organization (UNESCO) and the United Nations (UN).",
+        "parrafo4": "The resulting dataset is transformed through a process to extract metadata that make up a scientific article and then, they are stored in groups of three in an articulated knowledge base to Linked Open Data."
+    },
+    "general": {
+        "spinner": "Loading search results...",
+        "proyecto": "Semantic Collection for Climate Action",
+        "titulo": "Redalyc Semantic Collection",
+        "titulo2": "for the Sustainable Development Goals",
+        "subtitulo": "13 CLIMATE ACTION"
+    },
+    "footer": {
+        "copyright": "Redalyc's System of Scientific Information ®",
+        "copyright2": "Network of non-commercial academy-owned Open Access Scholarly and Scientific Journals.",
+        "version": "Redalyc 2021 Version 5.0 | 2022",
+        "correo": "redalyc@redalyc.org"
+    }
+}

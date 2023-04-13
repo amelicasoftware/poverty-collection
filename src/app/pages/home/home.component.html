@@ -1,0 +1,171 @@
+<app-header></app-header>
+<div class="social" id="social">
+    <div>
+        <div (click)="toSearcher()" id="menu-buscador" class="btn-menu">
+            <a ng-href="#contenedor-banner" id="btn-buscador" class="fab" title="{{ 'navegacion.buscador' | translate }}"></a>
+        </div>
+        <div (click)="toCould()" id="menu-nube" class="btn-menu">
+            <a ng-href="#contenedor-nube" id="btn-nube" class="fab" title="{{ 'navegacion.clave' | translate}}"></a>
+        </div>
+        <div (click)="toNetwork()" id="menu-red" class="btn-menu">
+            <a ng-href="#red-conceptos" id="btn-red" class="fab" title="{{ 'navegacion.conocimiento' | translate}}"></a>
+        </div>
+        <div (click)="toMap()" id="menu-pais" class="btn-menu">
+            <a ng-href="#contenedor-mapa" id="btn-pais" class="fab" title="{{ 'navegacion.pais' | translate}}"></a>
+        </div>
+        <div (click)="toSparql()" id="menu-documentos" class="btn-menu">
+            <a ng-href="#contenedor-ultimos-documentos" id="btn-documentos" class="fab" title="{{ 'navegacion.sparql' | translate}}"></a>
+        </div>
+        <div (click)="toAbout()" id="menu-sql" class="btn-menu">
+            <a ng-href="#sparql" id="btn-sql" class="fab" title="{{ 'header.acerca.genero' | translate }}"></a>
+        </div>
+    </div>
+</div>
+<div id="btn-top" (click)="toScrollTop()">
+    <i class="fa fa-chevron-up"></i>
+</div>
+<section id="searcher">
+    <div id="container">
+        <div id="central-container">
+            <div id="container-title">
+                <div id="container-title-search">
+                    <div class="title-search">{{ 'general.titulo' | translate}}</div>
+                    <div class="subtitle-search">{{ 'general.titulo2' | translate}}</div>
+                    <div class="title-search">{{ 'general.subtitulo' | translate}}</div>
+                </div>
+            </div>
+            <div id="container-searcher">            
+                <div id="text-search"><span>{{ 'navegacion.buscador' | translate }}</span></div>
+                <div id="search">
+                    <input #word (keyup.enter)="searchText(word.value)" id="input-search" type="text" name="input-articulo" value="" placeholder="{{'home.buscar' | translate}}" />
+                    <input id="button-search" type="image" src="assets/img/home/buscador.png" (click)="searchText(word.value)" name="boton-buscar-articulo" alt="Buscar" />
+                </div>
+            </div>
+            <div id="contenedor-numeralias">
+                <!-- <div class="text-description" [innerHTML]="'navegacion.total' | translate: { articles: (numArticulos), journals: (numRevistas), countries: (numPaises)}">
+                </div> -->
+                <div id="new-number">
+                    <div class="numbers">
+                       {{ numArticulos }} 
+                    </div>
+                    <div >
+                        <div class="width-text-number">{{ 'navegacion.texto-num-articulo' | translate }}</div>
+                        <div class="width-text-number">{{ 'navegacion.texto-num-articulo2' | translate }}</div>
+                    </div>
+                    <div class="numbers">
+                        {{ numRevistas }}
+                    </div>
+                    <div>
+                        <div class="width-text-number">{{ 'navegacion.texto-num-rev' | translate }}</div>
+                        <div class="width-text-number">{{ 'navegacion.texto-num-rev2' | translate }}</div>
+                    </div>
+                    <div class="numbers">
+                        {{ numPaises }}
+                    </div>
+                    <div class="width-text-number" id="number-country">{{ 'navegacion.texto-num-paises' | translate }}</div>
+                </div>
+            </div>
+            <div id="contenedor-resumen" class="text-description">
+                {{'home.mensaje' | translate}}
+            </div>
+            <div id="contenedor-resumen" class="text-description">
+                {{'home.mensaje1' | translate}}
+            </div>
+        </div>
+        <!-- <div class="title"> &nbsp;&nbsp;    
+            <img *ngIf="lang === 'es'" src="assets/img/home/ODS-13-esp.png" alt="">
+            <img *ngIf="lang === 'en'" src="assets/img/home/SDG-13-eng.png" alt="">
+        </div> -->
+        
+        <!-- <div id="contenedor-numeralias">
+            <div class="text-description" [innerHTML]="'navegacion.total' | translate: { articles: (numArticulos), journals: (numRevistas), countries: (numPaises)}">
+            </div>
+        </div>
+        <div id="contenedor-resumen" class="text-description">
+            {{'home.mensaje' | translate}}
+        </div> -->
+    </div>
+    <div id="menu-section">
+        <!--<div (click)="toSearcher()" [ngClass]="{'selection': selection == 1}" class="op-menu-section btn-search" id="btn-search">
+            <img src="assets/img/home/busqueda.png"><span>{{ 'navegacion.buscador' | translate }}</span>
+        </div> -->
+        <div (click)="toCould()" [ngClass]="{'selection': selection == 2}" class="op-menu-section btn-tema" id="btn-articles">
+            <img src="assets/img/home/palabra_clave.png"><span>{{ 'navegacion.clave' | translate}}</span>
+        </div>
+        <div (click)="toNetwork()" [ngClass]="{'selection': selection == 3}" class="op-menu-section btn-representacion" id="btn-representacion">
+            <img src="assets/img/home/red.png"><span>{{ 'navegacion.conocimiento' | translate}}</span>
+        </div>
+        <div (click)="toMap()" [ngClass]="{'selection': selection == 4}" class="op-menu-section btn-pais" id="btn-pais">
+            <img src="assets/img/home/por_pais.png"><span>{{ 'navegacion.pais' | translate}}</span>
+        </div>
+        <div (click)="toSparql()" [ngClass]="{'selection': selection == 5}" class="op-menu-section btn-sparql" id="btn-sparql">
+            <img src="assets/img/home/sparql.png"><span>{{ 'navegacion.sparql' | translate}}</span>
+        </div>
+        <div (click)="toRecent()" class="op-menu-section" id="btn-recientes" [ngClass]="{'selection': selection == 6}">
+            <img src="assets/img/home/recientes.png">&nbsp;<span>{{ 'navegacion.recientes' | translate}}</span>
+        </div>
+        <div (click)="toAbout()" class="op-menu-section btn-recientes" id="btn-recientes">
+            <img src="assets/img/home/acerca.png"><span>{{ 'header.acerca.genero' | translate }}</span>
+        </div>
+    </div>
+</section>
+<!-- <section id="last-numbers">
+    <div id="container-title">
+        <div class="title-section">Artículos recientes sobre epidemias y COVID-19</div>
+        <div id="buttons-carrusell">
+            <div (click)="leftScroll()" class="button-carrusell"><img src="assets/img/home/anterior.png" alt=""></div>
+            <div (click)="rightScroll()"class="button-carrusell"><img src="assets/img/home/siguiente.png" alt=""></div>
+        </div>
+    </div>
+    <div id="container-last-articles">
+        <app-last-articles></app-last-articles>
+    </div>
+</section> -->
+<section id="could">
+    <div></div>
+    <div id="container-cloud">
+        <div style="font-size: 16pt; font-family: 'Barlow-Regular'; margin-bottom: 30px;">{{'navegacion.clave' | translate}}</div>
+        <app-word-cloud></app-word-cloud>
+    </div>
+</section>
+<section id="network">
+    <div id="title-network">{{'navegacion.conocimiento' | translate}}</div>
+    <div>
+        <app-network></app-network>
+    </div>
+</section>
+<section id="map">
+    <div style="width: 90%; font-size: 16pt; font-family: 'Barlow-Regular'; margin: 30px auto; color: black;">{{'navegacion.pais' | translate}}</div>
+    <div>
+        <app-map></app-map>
+    </div>
+</section>
+<section id="last-numbers">
+    <div style="width: 90%; font-size: 16pt; font-family: 'Barlow-Regular'; margin: 30px auto; color: #1A1A1A;">{{'home.recientes' | translate}}</div>
+    <div id="container-title">
+        <div class="title-section"><img src="assets/img/home/ic-articulos.png" alt=""> &nbsp;&nbsp;  {{ 'busqueda.secciones.principal' | translate}}</div>
+        <div id="buttons-carrusell">
+            <div (click)="leftScroll()" class="button-carrusell"><img src="assets/img/home/izquierda.png" alt=""></div>
+            <div (click)="rightScroll()"class="button-carrusell"><img src="assets/img/home/derecha.png" alt=""></div>
+        </div>
+    </div>
+    <div id="container-last-articles">
+        <app-last-articles></app-last-articles>
+    </div>
+</section>
+<section id="sparql">
+    <div id="container-content">
+        <div id="descripcion-sparql">
+            <p id="titulo-sparql">{{'navegacion.sparql' | translate}}</p>
+            <br>
+            <p [innerHTML]="'home.sparql' | translate: { value: ('http://sparql.amelica.org/knowledgebase/climateaction/datastore')}"></p>
+        </div>
+        <div id="container-data">
+            <div id="container-id">
+                <iframe src="http://sparql.amelica.org/knowledgebase/climateaction/datastore" frameborder="0" width="100%" height="100%"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-footer></app-footer>

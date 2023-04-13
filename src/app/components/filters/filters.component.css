@@ -1,0 +1,63 @@
+.font-filters {
+    font-family: Barlow-Regular;
+    margin: 0px 50px;
+    padding-top: 10px;
+}
+
+.font-filters>div {
+    margin-top: 10px;
+}
+
+.tittle-filter {
+    margin: 5px 25px;
+}
+
+.container-filter {
+    margin: 0px 20px;
+}
+
+.hidden-filter {
+    display: none;
+}
+
+.show-more {
+    display: block;
+    transition-property: opacity, left, top, height;
+    transition-duration: 3s, 5s, 3s, 5s;
+}
+
+.btn-show-more {
+    font-size: 12pt;
+    cursor: pointer;
+    margin: 5px 20px;
+}
+
+.show-btn {
+    display: none;
+}
+
+#container-btn-filter {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-filters {
+    border-radius: 7px;
+    float: left;
+    font-size: 10pt;
+    background-color: #3f7e44;
+    color: white;
+    text-align: center;
+    padding: 6px 0px;
+    cursor: pointer;
+    width: 50% !important;
+    margin: 5px 20px;
+}
+
+#btn-filters :hover {
+    box-shadow: 0px 1px 2px 1px #bfbfbf;
+}
+
+.checkbox-filter {
+    width: 20px;
+}

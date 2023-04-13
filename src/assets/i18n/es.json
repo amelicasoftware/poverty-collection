@@ -1,0 +1,113 @@
+{
+    "header": {
+        "acerca.redalyc": "Acerca de Redalyc",
+        "mision": "Misión",
+        "consejo": "Consejo asesor",
+        "directorio": "Directorio",
+        "cronologia": "Cronología",
+        "reconocimientos": "Reconocimientos internacionales",
+        "oai": "OAI-PMH",
+        "sitio": "Redalyc en tu sitio web",
+        "uso": "Uso legal",
+        "publicaciones": "Publicaciones",
+        "acceso": "Acceso Abierto Diamante",
+        "valores": "Principios y Valores",
+        "jats": "Tecnología de Publicación Digital (XML JATS)",
+        "marcalyc": "Marcalyc Sistema de Marcación (XML JATS)",
+        "ojs": "Integración OJS",
+        "capacitacion": "Capacitación XML JATS",
+        "generacion": "Generación Automática de ePUB, PDF HTML",
+        "visor": "Visor de artículos",
+        "movil": "Visor móvil de articulos",
+        "indexacion": "Indexación de Revistas",
+        "consolidadas.redalyc": "Índice de Revistas Consolidadas Redalyc",
+        "consolidadas.amelica": "Índice de Revistas en consolidación AmeliCA",
+        "evaluacion": "Criterios de evaluación",
+        "postulacion": "Proceso de postulación",
+        "servicios": "Servicios",
+        "redalyc": "Redalyc",
+        "acerca.genero": "Acerca de",
+        "pais": "Búsqueda País"
+    },
+    "navegacion": {
+        "total": "<span class='number'>{{ articles }} </span> artículos extraídos de <span class='number'>{{ journals }}</span> revistas indexadas de <span class='number'>{{ countries }}</span> países",
+        "total.busqueda": "Más de <span class='number'>{{ articles }} artículos</span>",
+        "buscador": "Búsqueda de artículos a texto completo",
+        "clave": "Artículos por palabra clave",
+        "conocimiento": "Representación del conocimiento",
+        "pais": "Artículos por país",
+        "sparql": "Base de conocimiento en SPARQL",
+        "recientes": "Más recientes",
+        "texto-num-articulo": "Artículos",
+        "texto-num-articulo2": "extraídos de",
+        "texto-num-rev": "revistas",
+        "texto-num-rev2": "indexadas de",
+        "texto-num-paises": "países"
+    },
+    "home": {
+        "buscar": "Buscar",
+        "mensaje": "El Acceso Abierto Diamante al servicio de los Objetivos de Desarrollo Sostenible",
+        "mensaje1": "17 objetivos para transformar nuestro mundo",
+        "recientes": "Publicaciones recientes",
+        "mas": "Ver más artículos",
+        "cargando": "Cargando Artículos...",
+        "sparql": "Punto de acceso SPARQL con los datos disponibles para acceder a los resultados para mayores análisis: <a style='color: #6b956f;' href='http://sparql.amelica.org/knowledgebase/climateaction/datastore'>{{ value }}</a>"
+    },
+    "busqueda": {
+        "banner": {
+            "pais": "Seleccionar el país:",
+            "palabras": "Búsqueda por palabra clave",
+            "general": "Búsqueda General",
+            "buscar.general": "Ingrese palabra de búsqueda",
+            "buscar.clave": "Ingrese la palabra clave a buscar"
+        },
+        "secciones": {
+            "principal": "Articulos de revista",
+            "modo": "Modo de visualizar resultados",
+            "tabla": "tabla",
+            "lista": "lista",
+            "resultados": "Resultados para: {{ text }} en artículos de revista",
+            "resultados.pais": "Artículos publicados en revistas de: {{ value }}",
+            "total": "{{ value1 }} a {{ value2 }} de {{ value3 }} artículos"
+        },
+        "filtros": {
+            "titulo": "Filtros de Búsqueda",
+            "Año": "Año",
+            "Idioma": "Idioma",
+            "Disciplina": "Disciplina",
+            "País": "País",
+            "mas": "Ver más",
+            "menos": "Ver menos",
+            "aplicar": "Aplicar Filtros"
+        },
+        "tabla": {
+            "titulo": "Título",
+            "autor": "Autores",
+            "revista": "Revista",
+            "numero": "Número",
+            "texto": "Texto Completo"
+        }
+    },
+    "estatica": {
+        "titulo1": "CONTEXTO ",
+        "parrafo1": "Se denomina cambio climático a la variación global del clima de la Tierra. A pesar de que las emisiones de gases de efecto invernadero han caído debido a las restricciones de movimiento y las recesiones económicas derivadas de la pandemia de la COVID-19, el cambio climático no se va a pausar. Es necesario tomar medidas urgentes para abordar la emergencia climática con el fin de salvar vidas y medios de subsistencia.",
+        "titulo2": "DESCRIPCIÓN",
+        "parrafo2": "De acuerdo a los objetivos de la agenda 2030 sobre el desarrollo sostenible, Redalyc se une a los esfuerzos de cientos de instituciones y países para construir un mundo mejor. En está ocasión la aportación es la colección semántica de  Acción por el Clima, que tiene como objetivo consolidar contenidos científicos publicados en revistas indexadas de Acceso abierto Redalyc sobre temas como: cambio climático, deterioro ambiental, emisiones de gases de efecto invernadero, entre otros.",
+        "titulo3": "METODOLOGÍA ",
+        "parrafo3": "La Colección de Acción por el Clima se construyó a partir de la base de datos de Redalyc.org,que indexa revistas de acceso abierto no comerciales de calidad certificada .  La Colección de Acción por el Clima está compuesta por X  artículos científicos que incluyen conceptos y relaciones así como sus atributos. Los artículos que componen está colección son el resultado de  aplicar una serie de algoritmos que realizan una curaduría de los contenidos de forma automatizada con base al tesauro de términos oficial de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) y  Organización de las Naciones Unidas (ONU).",
+        "parrafo4": "El conjunto de datos resultante se transforma a través de un proceso para extraer los metadatos que componen un artículo científico y luego se almacenan en forma de tripletas en una base de conocimiento articulada a Linked Open Data."
+    },
+    "general": {
+        "spinner": "Cargando resultados de búsqueda...",
+        "proyecto": "Colección Semántica de Acción por el Clima",
+        "titulo": "Colección Semántica Redalyc",
+        "titulo2": "para los Objetivos del Desarrollo Sostenible",
+        "subtitulo": "13 ACCIÓN POR EL CLIMA"
+    },
+    "footer": {
+        "copyright": "Sistema de Información Científica Redalyc ®",
+        "copyright2": "Red de revistas científicas de Acceso Abierto no comercial propiedad de la academia.",
+        "version": "Redalyc 2021 Versión 5.0 | 2022",
+        "correo": "redalyc@redalyc.org"
+    }
+}
