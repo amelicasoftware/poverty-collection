@@ -45,13 +45,13 @@ export class MapComponent implements OnInit {
     let polygonTemplate = polygonSeries.mapPolygons.template;
     // polygonTemplate.tooltipText = '{name}';
     polygonTemplate.polygon.fillOpacity = 0.6;
-    polygonTemplate.fill = am4core.color('#a3b3a7');
+    polygonTemplate.fill = am4core.color('#f2cbcb');
     // let hs = polygonTemplate.states.create('hover');
     // hs.properties.fill = am4core.color('#74X999');
 
     let imageSeries = this.chart.series.push(new am4maps.MapImageSeries());
     imageSeries.dataFields.value = 'value';
-    imageSeries.fill = am4core.color('#3f7e44');
+    imageSeries.fill = am4core.color('#e5243b');
 
     let imageTemplate = imageSeries.mapImages.template;
     imageTemplate.propertyFields.latitude = 'latitude';

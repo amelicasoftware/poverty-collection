@@ -144,7 +144,7 @@ function cargarRed() {
                 // var articulos = document.getElementById("container-articles");
                 // articulos.setAttribute("style", "height: 100%;");
                 var itemBoton = document.createElement('div');
-                itemBoton.setAttribute("style", "margin: 20px auto; border-radius: 5px; padding: 10px; background: #3f7e44;      text-align: center; width: 50%;");
+                itemBoton.setAttribute("style", "margin: 20px auto; border-radius: 5px; padding: 10px; background: #e5243b;      text-align: center; width: 50%;");
                 itemBoton.innerHTML = `<a style="text-decoration: none; color: white;" href="${urlProject}#/busqueda-palabra-clave/${params.nodes}"> <div id="btn-mas-articulos">Más artículos</div></a>`;
                 document.getElementById('datosArticulo').appendChild(itemBoton);
             },

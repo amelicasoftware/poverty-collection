@@ -1,7 +1,7 @@
 [
     {
         "clave": "2",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 51.0834,
         "name": "Alemania",
         "id": "DE",
@@ -10,7 +10,7 @@
     },
     {
         "clave": "4",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": -8.8159,
         "name": "Angola",
         "id": "AO",
@@ -19,7 +19,7 @@
     },
     {
         "clave": "9",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": -34.6118,
         "name": "Argentina",
         "id": "AR",
@@ -28,7 +28,7 @@
     },
     {
         "clave": "19",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": -19.0421,
         "name": "Estado Plurinacional de Bolivia",
         "id": "BO",
@@ -37,7 +37,7 @@
     },
     {
         "clave": "21",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": -15.7801,
         "name": "Brasil",
         "id": "BR",
@@ -46,7 +46,7 @@
     },
     {
         "clave": "26",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": -33.4691,
         "name": "Chile",
         "id": "CL",
@@ -55,7 +55,7 @@
     },
     {
         "clave": "30",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 4.6473,
         "name": "Colombia",
         "id": "CO",
@@ -64,7 +64,7 @@
     },
     {
         "clave": "33",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 9.9402,
         "name": "Costa Rica",
         "id": "CR",
@@ -73,7 +73,7 @@
     },
     {
         "clave": "35",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 23.1333,
         "name": "Cuba",
         "id": "CU",
@@ -82,7 +82,7 @@
     },
     {
         "clave": "36",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 55.6763,
         "name": "Dinamarca",
         "id": "DK",
@@ -91,7 +91,7 @@
     },
     {
         "clave": "37",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": -0.2295,
         "name": "Ecuador",
         "id": "EC",
@@ -100,7 +100,7 @@
     },
     {
         "clave": "42",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 40.4167,
         "name": "España",
         "id": "ES",
@@ -109,7 +109,7 @@
     },
     {
         "clave": "43",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 39.7837304,
         "name": "Estados Unidos de América",
         "id": "US",
@@ -118,7 +118,7 @@
     },
     {
         "clave": "60",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 28.6353,
         "name": "India",
         "id": "IN",
@@ -127,7 +127,7 @@
     },
     {
         "clave": "67",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 42.6384261,
         "name": "Italia",
         "id": "IT",
@@ -136,7 +136,7 @@
     },
     {
         "clave": "73",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 19.4326009,
         "name": "México",
         "id": "MX",
@@ -145,7 +145,7 @@
     },
     {
         "clave": "79",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 8.9943,
         "name": "Panamá",
         "id": "PA",
@@ -154,7 +154,7 @@
     },
     {
         "clave": "81",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": -12.0931,
         "name": "Perú",
         "id": "PE",
@@ -163,7 +163,7 @@
     },
     {
         "clave": "82",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 52.2297,
         "name": "Polonia",
         "id": "PL",
@@ -172,7 +172,7 @@
     },
     {
         "clave": "83",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 40.0332629,
         "name": "Portugal",
         "id": "PT",
@@ -181,7 +181,7 @@
     },
     {
         "clave": "85",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 18.479,
         "name": "República Dominicana",
         "id": "DO",
@@ -190,7 +190,7 @@
     },
     {
         "clave": "89",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 46.948,
         "name": "Suiza",
         "id": "CH",
@@ -199,7 +199,7 @@
     },
     {
         "clave": "93",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": -32.8941,
         "name": "Uruguay",
         "id": "UY",
@@ -208,7 +208,7 @@
     },
     {
         "clave": "94",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 7.4961,
         "name": "República Bolivariana de Venezuela",
         "id": "VE",
@@ -217,7 +217,7 @@
     },
     {
         "clave": "97",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 18.45,
         "name": "Puerto Rico",
         "id": "PR",
@@ -226,7 +226,7 @@
     },
     {
         "clave": "211",
-        "color": "#007f3e",
+        "color": "#e5243b",
         "latitude": 44.016521,
         "name": "Serbia",
         "id": "RS",

@@ -48,3 +48,8 @@ body {
 .e-menu-wrapper .e-ul .e-menu-item.e-selected span {
     color: black;
 }
+
+#descripcion-sparql > p:nth-child(3) > a{
+    color: #e5243b;
+}
+

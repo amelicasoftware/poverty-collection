@@ -92,17 +92,17 @@
         "titulo1": "CONTEXTO ",
         "parrafo1": "Se denomina cambio climático a la variación global del clima de la Tierra. A pesar de que las emisiones de gases de efecto invernadero han caído debido a las restricciones de movimiento y las recesiones económicas derivadas de la pandemia de la COVID-19, el cambio climático no se va a pausar. Es necesario tomar medidas urgentes para abordar la emergencia climática con el fin de salvar vidas y medios de subsistencia.",
         "titulo2": "DESCRIPCIÓN",
-        "parrafo2": "De acuerdo a los objetivos de la agenda 2030 sobre el desarrollo sostenible, Redalyc se une a los esfuerzos de cientos de instituciones y países para construir un mundo mejor. En está ocasión la aportación es la colección semántica de  Acción por el Clima, que tiene como objetivo consolidar contenidos científicos publicados en revistas indexadas de Acceso abierto Redalyc sobre temas como: cambio climático, deterioro ambiental, emisiones de gases de efecto invernadero, entre otros.",
+        "parrafo2": "De acuerdo a los objetivos de la agenda 2030 sobre el desarrollo sostenible, Redalyc se une a los esfuerzos de cientos de instituciones y países para construir un mundo mejor. En está ocasión la aportación es la colección semántica de  Fin de la Pobreza, que tiene como objetivo consolidar contenidos científicos publicados en revistas indexadas de Acceso abierto Redalyc sobre temas como: cambio climático, deterioro ambiental, emisiones de gases de efecto invernadero, entre otros.",
         "titulo3": "METODOLOGÍA ",
-        "parrafo3": "La Colección de Acción por el Clima se construyó a partir de la base de datos de Redalyc.org,que indexa revistas de acceso abierto no comerciales de calidad certificada .  La Colección de Acción por el Clima está compuesta por X  artículos científicos que incluyen conceptos y relaciones así como sus atributos. Los artículos que componen está colección son el resultado de  aplicar una serie de algoritmos que realizan una curaduría de los contenidos de forma automatizada con base al tesauro de términos oficial de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) y  Organización de las Naciones Unidas (ONU).",
+        "parrafo3": "La Colección de Fin de la Pobreza se construyó a partir de la base de datos de Redalyc.org,que indexa revistas de acceso abierto no comerciales de calidad certificada .  La Colección de Fin de la Pobreza está compuesta por X  artículos científicos que incluyen conceptos y relaciones así como sus atributos. Los artículos que componen está colección son el resultado de  aplicar una serie de algoritmos que realizan una curaduría de los contenidos de forma automatizada con base al tesauro de términos oficial de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) y  Organización de las Naciones Unidas (ONU).",
         "parrafo4": "El conjunto de datos resultante se transforma a través de un proceso para extraer los metadatos que componen un artículo científico y luego se almacenan en forma de tripletas en una base de conocimiento articulada a Linked Open Data."
     },
     "general": {
         "spinner": "Cargando resultados de búsqueda...",
-        "proyecto": "Colección Semántica de Acción por el Clima",
+        "proyecto": "Colección Semántica de Fin de la Pobreza",
         "titulo": "Colección Semántica Redalyc",
         "titulo2": "para los Objetivos del Desarrollo Sostenible",
-        "subtitulo": "13 ACCIÓN POR EL CLIMA"
+        "subtitulo": "1 FIN DE LA POBREZA"
     },
     "footer": {
         "copyright": "Sistema de Información Científica Redalyc ®",

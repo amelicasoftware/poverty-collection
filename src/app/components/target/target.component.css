@@ -17,7 +17,7 @@
 .title {
     font-family: 'Barlow-Bold';
     text-decoration: none;
-    color: #3f7e44;
+    color: #e5243b;
 }
 
 .titleJournal {
@@ -37,7 +37,7 @@
 
 .text-complete {
     display: inline;
-    color: #3f7e44;
+    color: #e5243b;
 }
 
 .button-visualizations {
@@ -46,11 +46,11 @@
     margin: 3px;
     margin-left: 10px;
     padding: 3px 20px;
-    border: 1px solid #3f7e44;
+    border: 1px solid #e5243b;
 }
 
 .button-visualizations a {
-    color: #3f7e44;
+    color: #e5243b;
 }
 
 .type-format {

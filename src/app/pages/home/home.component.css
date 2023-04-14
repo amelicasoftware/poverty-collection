@@ -11,7 +11,7 @@
      padding: 10px 0px;
 }
 #container{
-    background-image: url(../../../assets/img/home/redalyc_ODS_ColecSemanClima.png);
+    background-image: url(../../../assets/img/home/redalyc_ODS_ColecSemanFinPobreza.jpg);
     background-size: cover;
     background-position: 40% 75%;
     display: flex;
@@ -107,12 +107,17 @@
     display: flex;
     width: 70%;
     margin: 20px auto;
-    /* border-bottom:#3f7e44 solid 2px; */
+    /* border-bottom:#e5243b solid 2px; */
     align-items: center;
+}
+
+#container-title{
+    border-bottom: solid 2px #e5243b;
+    padding-bottom: 5px;
 }
 .title-section{
     width: 80%;
-    color: #3f7e44;
+    color: #e5243b;
     font-size: 16pt;
     font-family: 'Barlow-Regular';
     display: flex;

@@ -1,5 +1,5 @@
 #searches {
-    background-image: url(../../../assets/img/shared/interna-accion-por-el-clima.png);
+    background-image: url(../../../assets/img/shared/interna-fin-de-la-pobreza.png);
     height: 115px;
 }
 
@@ -35,5 +35,5 @@
 }
 
 .selected-searcher {
-    background-color: #3f7e44;
+    /*background-color: #e5243b;*/
 }

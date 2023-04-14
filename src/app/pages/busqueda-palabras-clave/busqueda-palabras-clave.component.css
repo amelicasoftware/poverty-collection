@@ -55,7 +55,7 @@
 }
 
 .text-filters {
-    background-color: #3f7e44;
+    background-color: #e5243b;
     color: white;
     display: flex;
     align-items: center;
@@ -81,12 +81,12 @@
 }
 
 .selected {
-    color: #3f7e44;
+    color: #e5243b;
     cursor: default;
 }
 
 .activate {
-    color: #3f7e44;
+    color: #e5243b;
 }
 
 .select {
@@ -156,7 +156,7 @@
 }
 
 .color-blue {
-    color: #3f7e44;
+    color: #e5243b;
 }
 
 .filters-icon {
@@ -187,7 +187,7 @@
         margin-right: 115px;
     }
     .filters-icon img {
-        background-color: #3f7e44;
+        background-color: #e5243b;
         float: left;
     }
     .sections-aling {
@@ -243,7 +243,7 @@
         top: 0;
         left: 0;
         z-index: 1;
-        background-color: #3f7e44;
+        background-color: #e5243b;
         overflow-x: hidden;
         transition: 0.4s;
         padding: 1rem 0;
@@ -307,7 +307,7 @@
         margin-right: 165px;
     }
     .filters-icon img {
-        background-color: #3f7e44;
+        background-color: #e5243b;
         float: left;
     }
     .sections-aling {
@@ -363,7 +363,7 @@
         top: 0;
         left: 0;
         z-index: 1;
-        background-color: #3f7e44;
+        background-color: #e5243b;
         overflow-x: hidden;
         transition: 0.4s;
         padding: 1rem 0;
@@ -424,7 +424,7 @@
         margin-right: 67%;
     }
     .filters-icon img {
-        background-color: #3f7e44;
+        background-color: #e5243b;
         float: left;
     }
     .sections-aling {
@@ -469,7 +469,7 @@
         top: 0;
         left: 0;
         z-index: 1;
-        background-color: #3f7e44;
+        background-color: #e5243b;
         overflow-x: hidden;
         transition: 0.4s;
         padding: 1rem 0;

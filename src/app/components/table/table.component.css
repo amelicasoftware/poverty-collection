@@ -11,7 +11,7 @@ table {
 }
 
 thead tr th {
-    color: #3f7e44;
+    color: #e5243b;
 }
 
 tbody tr td {
@@ -100,7 +100,7 @@ img {
 
 .title {
     text-decoration: none;
-    color: #3f7e44;
+    color: #e5243b;
 }
 
 @media only screen and (max-width: 340px) and (min-width: 5px) {
