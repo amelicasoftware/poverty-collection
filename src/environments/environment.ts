@@ -6,8 +6,8 @@ export const environment = {
   production: false,
   baseUrl: 'http://portal.amelica.org/ApiReaderIndex/resources/',
   // baseUrl: 'http://148.215.2.20:8080/ApiReaderIndex/resources/',
-  // urlProject: 'http://localhost:4200/',
-  urlProject: 'http://148.215.24.37:4200/'
+  urlProject: 'http://localhost:4200/',
+  //urlProject: 'http://148.215.24.139:4200/'
   // urlProject: 'http://semantic.redalyc.org/climateaction/'
 };
 

@@ -90,24 +90,24 @@
     },
     "estatica": {
         "titulo1": "CONTEXT",
-        "parrafo1": "Climate change is defined as the global variation in the climate of the Earth. Although greenhouse gas emissions have decreased due to movement restrictions and recessions derived from the COVID-19 pandemic, climate change is not going to pause. Urgent  measures are needed to deal with the climate emergency with the aim of saving lives and livelihood.",
+        "parrafo1": "In the last 25 years, the global number of people living in extreme poverty has decreased by around 26%. However, the pace of this change is slowing, and the COVID-19 crisis puts decades of progress in the fight against poverty at risk. To help the poorest and most vulnerable population, the United Nations has developed a framework for the immediate socioeconomic response to COVID-19, calling for an extraordinary expansion of international support and political commitment, in order to guarantee that people around the world have access to essential services and social protection.",
         "titulo2": "DESCRIPTION",
-        "parrafo2": "In accordance with the objectives of the 2030 agenda on sustainable development, Redalyc joint the efforts of institutions and countries to build a better world. In this occasion, the contribution is the semantic collection on Climate Action, which has the aim of consolidating scientific contents published in indexed journals of Open Access Redalyc on topics such as: climate change, environmental degradation, greenhouse gas emissions, among others.",
+        "parrafo2": "In accordance with the objectives of the 2030 agenda on sustainable development, Redalyc joins the efforts of hundreds of institutions and countries, to build a better world. On this occasion, the contribution is the End of Poverty Semantic Collection, which aims to consolidate scientific content published in Open Access scientific journals indexed in Redalyc, on topics such as: poverty, work, minimum salary, social exclusion, rural poverty, labor market, among others.",
         "titulo3": "METHODOLOGY",
-        "parrafo3": "The Climate Action Collection was built from the database of Redalyc.org which indexes non-commercial open access journals of certified quality. The Climate Action Collection has X scientific articles which includes concepts and relationships as well as their attributes. The articles that are part of this collection are the result of applying a series of algorithms that makes a curatorship automatically based on an official thesaurus of terms of the United Nations Educational, Scientific and Cultural Organization (UNESCO) and the United Nations (UN).",
-        "parrafo4": "The resulting dataset is transformed through a process to extract metadata that make up a scientific article and then, they are stored in groups of three in an articulated knowledge base to Linked Open Data."
+        "parrafo3": "The End of Poverty Collection was built from the Redalyc.org database, which contains non-commercial open access journals of certified quality. The End of Poverty Collection is made of 11,659 scientific articles that include concepts and relationships, as well as their attributes. The articles that integrate this collection are the result of applying a series of algorithms that automatically curate the contents based on the official thesaurus of terms of the United Nations Educational, Scientific and Cultural Organization (UNESCO) and the United Nations (UN).",
+        "parrafo4": "The resulting data set is transformed through a process to extract the metadata that make up a scientific article and then stored in the form of triplets, in a knowledge base articulated to Linked Open Data."
     },
     "general": {
         "spinner": "Loading search results...",
-        "proyecto": "Semantic Collection for Climate Action",
+        "proyecto": "End of Poverty Semantic Collection",
         "titulo": "Redalyc Semantic Collection",
         "titulo2": "for the Sustainable Development Goals",
-        "subtitulo": "13 CLIMATE ACTION"
+        "subtitulo": "1 END OF POVERTY"
     },
     "footer": {
         "copyright": "Redalyc's System of Scientific Information ®",
         "copyright2": "Network of non-commercial academy-owned Open Access Scholarly and Scientific Journals.",
-        "version": "Redalyc 2021 Version 5.0 | 2022",
+        "version": "Redalyc 2021 Version 5.0 | 2023",
         "correo": "redalyc@redalyc.org"
     }
 }

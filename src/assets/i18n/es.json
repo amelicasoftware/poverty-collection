@@ -90,11 +90,11 @@
     },
     "estatica": {
         "titulo1": "CONTEXTO ",
-        "parrafo1": "Se denomina cambio climático a la variación global del clima de la Tierra. A pesar de que las emisiones de gases de efecto invernadero han caído debido a las restricciones de movimiento y las recesiones económicas derivadas de la pandemia de la COVID-19, el cambio climático no se va a pausar. Es necesario tomar medidas urgentes para abordar la emergencia climática con el fin de salvar vidas y medios de subsistencia.",
+        "parrafo1": "A nivel mundial, el número de personas que viven en situación de extrema pobreza disminuyó en los últimos 25 años alrededor de un 26%. No obstante, el ritmo al que se produce este cambio está disminuyendo, y la crisis de la COVID-19 pone en riesgo décadas de progreso en la lucha contra la pobreza. Para ayudar a la población más pobre y vulnerable, las Naciones Unidas han elaborado un Marco para la respuesta socioeconómica inmediata a la COVID-19, con el que apelan a ampliar de manera extraordinaria el apoyo internacional y el compromiso político con el fin de garantizar que personas de todo el mundo tengan acceso a servicios esenciales y a protección social.",
         "titulo2": "DESCRIPCIÓN",
-        "parrafo2": "De acuerdo a los objetivos de la agenda 2030 sobre el desarrollo sostenible, Redalyc se une a los esfuerzos de cientos de instituciones y países para construir un mundo mejor. En está ocasión la aportación es la colección semántica de  Fin de la Pobreza, que tiene como objetivo consolidar contenidos científicos publicados en revistas indexadas de Acceso abierto Redalyc sobre temas como: cambio climático, deterioro ambiental, emisiones de gases de efecto invernadero, entre otros.",
+        "parrafo2": "De acuerdo a los objetivos de la agenda 2030 sobre el desarrollo sostenible, Redalyc se une a los esfuerzos de cientos de instituciones y países para construir un mundo mejor. En está ocasión la aportación es la colección semántica de Fin de la Pobreza, que tiene como objetivo consolidar contenidos científicos publicados en revistas indexadas de Acceso abierto Redalyc sobre temas como: pobreza, trabajo, salario mínimo, exclusión social, pobreza rural, mercado de trabajo, entre otros.",
         "titulo3": "METODOLOGÍA ",
-        "parrafo3": "La Colección de Fin de la Pobreza se construyó a partir de la base de datos de Redalyc.org,que indexa revistas de acceso abierto no comerciales de calidad certificada .  La Colección de Fin de la Pobreza está compuesta por X  artículos científicos que incluyen conceptos y relaciones así como sus atributos. Los artículos que componen está colección son el resultado de  aplicar una serie de algoritmos que realizan una curaduría de los contenidos de forma automatizada con base al tesauro de términos oficial de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) y  Organización de las Naciones Unidas (ONU).",
+        "parrafo3": "La Colección de Fin de la Pobreza se construyó a partir de la base de datos de Redalyc.org,que indexa revistas de acceso abierto no comerciales de calidad certificada .  La Colección de Fin de la Pobreza está compuesta por 11659  artículos científicos que incluyen conceptos y relaciones así como sus atributos. Los artículos que componen está colección son el resultado de aplicar una serie de algoritmos que realizan una curaduría de los contenidos de forma automatizada con base al tesauro de términos oficial de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) y  Organización de las Naciones Unidas (ONU).",
         "parrafo4": "El conjunto de datos resultante se transforma a través de un proceso para extraer los metadatos que componen un artículo científico y luego se almacenan en forma de tripletas en una base de conocimiento articulada a Linked Open Data."
     },
     "general": {
@@ -107,7 +107,7 @@
     "footer": {
         "copyright": "Sistema de Información Científica Redalyc ®",
         "copyright2": "Red de revistas científicas de Acceso Abierto no comercial propiedad de la academia.",
-        "version": "Redalyc 2021 Versión 5.0 | 2022",
+        "version": "Redalyc 2021 Versión 5.0 | 2023",
         "correo": "redalyc@redalyc.org"
     }
 }
