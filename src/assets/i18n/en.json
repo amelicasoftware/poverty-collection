@@ -51,7 +51,7 @@
         "recientes": "Recent publications",
         "mas": "Display more articles",
         "cargando": "Loading Articles...",
-        "sparql": "SPARQL access point with the available data to access the results for better analysis: <a style='color: #6b956f;' href='http://sparql.amelica.org/knowledgebase/climateaction/datastore'>{{ value }}</a>"
+        "sparql": "SPARQL access point with the available data to access the results for better analysis: <a style='color: #6b956f;' href='http://sparql.amelica.org/knowledgebase/pobreza/datastore'>{{ value }}</a>"
     },
     "busqueda": {
         "banner": {

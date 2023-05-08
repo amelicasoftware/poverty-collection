@@ -69,7 +69,7 @@ export class MapComponent implements OnInit {
     circle.urlTarget = '_blank';
     circle.url = this.urlProject + '#/busqueda-pais/{clave}';
 
-    imageSeries.dataSource.url = this.urlProject + 'assets/json/paisesClimatico2.json';
+    imageSeries.dataSource.url = this.urlProject + 'assets/json/paisesPobreza.json';
     // imageSeries.dataSource.data = this.countrys;
     imageSeries.dataSource.parser = new am4core.JSONParser();
     console.log(imageSeries.dataSource.data);

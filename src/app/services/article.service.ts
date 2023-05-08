@@ -72,8 +72,8 @@ export class ArticleService {
   ): Observable<ArticleResult> {
     search = this.normalize(search);
     search = this.addQuotes(search);
-    console.log('Servicio Articulos:', `${this.url}articulos/climatico2/${search}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
-    return this.http.get<ArticleResult>(`${this.url}articulos/climatico2/${search}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
+    console.log('Servicio Articulos:', `${this.url}articulos/pobreza/${search}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
+    return this.http.get<ArticleResult>(`${this.url}articulos/pobreza/${search}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
   }
 
   getArticlesByCountry(
@@ -81,8 +81,8 @@ export class ArticleService {
     page: number,
     filters: FilterChain
   ): Observable<ArticleResult> {
-    console.log('Servicio Articulos por Palabra Clave:', `${this.url}articulos/climatico2/pais/${countryId}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
-    return this.http.get<ArticleResult>(`${this.url}articulos/climatico2/pais/${countryId}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
+    console.log('Servicio Articulos por Palabra Clave:', `${this.url}articulos/pobreza/pais/${countryId}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
+    return this.http.get<ArticleResult>(`${this.url}articulos/pobreza/pais/${countryId}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
   }
 
   getArticlesByKey(
@@ -92,8 +92,8 @@ export class ArticleService {
   ): Observable<ArticleResult> {
     key = this.normalize(key);
     key = this.addQuotes(key);
-    console.log('Servicio Articulos por Palabra Clave:', `${this.url}articulos/climatico2/palabras/${key}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
-    return this.http.get<ArticleResult>(`${this.url}articulos/climatico2/palabras/${key}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
+    console.log('Servicio Articulos por Palabra Clave:', `${this.url}articulos/pobreza/palabras/${key}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
+    return this.http.get<ArticleResult>(`${this.url}articulos/pobreza/palabras/${key}/${page}/10/relevancia/0/{"anios":"${filters.yearChain}","idiomas":"${filters.languageChain}", "paises":"${filters.countryChain}","areas":"","disciplinas":"${filters.disciplineChain}","autores":"","instituciones":"","origen":"","funete":"","fb":1}'`);
   }
 
   getCountries(): Observable<Country[]> {
@@ -106,6 +106,6 @@ export class ArticleService {
     return articlesExists;
   }
   getLastArticles(): any {
-    return this.http.get(`${this.url}articulos/climatico2/recientes/20/fechaAltaArticuloM/1`);
+    return this.http.get(`${this.url}articulos/pobreza/recientes/20/fechaAltaArticuloM/1`);
   }
 }

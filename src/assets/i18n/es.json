@@ -51,7 +51,7 @@
         "recientes": "Publicaciones recientes",
         "mas": "Ver más artículos",
         "cargando": "Cargando Artículos...",
-        "sparql": "Punto de acceso SPARQL con los datos disponibles para acceder a los resultados para mayores análisis: <a style='color: #6b956f;' href='http://sparql.amelica.org/knowledgebase/climateaction/datastore'>{{ value }}</a>"
+        "sparql": "Punto de acceso SPARQL con los datos disponibles para acceder a los resultados para mayores análisis: <a style='color: #6b956f;' href='http://sparql.amelica.org/knowledgebase/pobreza/datastore'>{{ value }}</a>"
     },
     "busqueda": {
         "banner": {
