@@ -92,17 +92,17 @@
         "titulo1": "CONTEXT",
         "parrafo1": "In the last 25 years, the global number of people living in extreme poverty has decreased by around 26%. However, the pace of this change is slowing, and the COVID-19 crisis puts decades of progress in the fight against poverty at risk. To help the poorest and most vulnerable population, the United Nations has developed a framework for the immediate socioeconomic response to COVID-19, calling for an extraordinary expansion of international support and political commitment, in order to guarantee that people around the world have access to essential services and social protection.",
         "titulo2": "DESCRIPTION",
-        "parrafo2": "In accordance with the objectives of the 2030 agenda on sustainable development, Redalyc joins the efforts of hundreds of institutions and countries, to build a better world. On this occasion, the contribution is the End of Poverty Semantic Collection, which aims to consolidate scientific content published in Open Access scientific journals indexed in Redalyc, on topics such as: poverty, work, minimum salary, social exclusion, rural poverty, labor market, among others.",
+        "parrafo2": "In accordance with the objectives of the 2030 agenda on sustainable development, Redalyc joins the efforts of hundreds of institutions and countries, to build a better world. On this occasion, the contribution is the No Poverty Semantic Collection, which aims to consolidate scientific content published in Open Access scientific journals indexed in Redalyc, on topics such as: poverty, work, minimum salary, social exclusion, rural poverty, labor market, among others.",
         "titulo3": "METHODOLOGY",
-        "parrafo3": "The End of Poverty Collection was built from the Redalyc.org database, which contains non-commercial open access journals of certified quality. The End of Poverty Collection is made of 11,659 scientific articles that include concepts and relationships, as well as their attributes. The articles that integrate this collection are the result of applying a series of algorithms that automatically curate the contents based on the official thesaurus of terms of the United Nations Educational, Scientific and Cultural Organization (UNESCO) and the United Nations (UN).",
+        "parrafo3": "The No Poverty Collection was built from the Redalyc.org database, which contains non-commercial open access journals of certified quality. The No Poverty Collection is made of 11,659 scientific articles that include concepts and relationships, as well as their attributes. The articles that integrate this collection are the result of applying a series of algorithms that automatically curate the contents based on the official thesaurus of terms of the United Nations Educational, Scientific and Cultural Organization (UNESCO) and the United Nations (UN).",
         "parrafo4": "The resulting data set is transformed through a process to extract the metadata that make up a scientific article and then stored in the form of triplets, in a knowledge base articulated to Linked Open Data."
     },
     "general": {
         "spinner": "Loading search results...",
-        "proyecto": "End of Poverty Semantic Collection",
+        "proyecto": "No Poverty Semantic Collection",
         "titulo": "Redalyc Semantic Collection",
         "titulo2": "for the Sustainable Development Goals",
-        "subtitulo": "1 END OF POVERTY"
+        "subtitulo": "1 NO POVERTY"
     },
     "footer": {
         "copyright": "Redalyc's System of Scientific Information ®",
