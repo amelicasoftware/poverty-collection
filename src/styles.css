@@ -18,8 +18,15 @@
 }
 
 body {
-    margin: 0px;
+    margin-top: 250px;
     font-family: Barlow-Regular;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        margin-top: 280px;
+    }
+
 }
 
 
