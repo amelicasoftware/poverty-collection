@@ -109,5 +109,10 @@
         "copyright2": "Red de revistas científicas de Acceso Abierto no comercial propiedad de la academia.",
         "version": "Redalyc 2021 Versión 5.0 | 2022",
         "correo": "redalyc@redalyc.org"
+    },
+    "mHeader": {
+        "title": "Sistema de Información Científica Redalyc",
+        "desc1": "Red de revistas científicas de Acceso Abierto Diamante",
+        "desc2": "Infraestructura abierta no comercial propiedad de la academia"
     }
 }
