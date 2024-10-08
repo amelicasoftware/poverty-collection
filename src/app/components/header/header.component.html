@@ -14,11 +14,11 @@
           </div>
 
         <div class="navigation">
-            <div class="logo-redalyc">
+            <div class="img-scroll" *ngIf="isShow">
                 <a href="https://www.redalyc.org/" target="_blank">
-                    <img class="to-home" id="to-home" src="assets/img/shared/logo-redalyc-fondo-oscuro.png">
+                  <img src="assets/img/shared/redalyc-logo.png" alt="Redalyc Logo" height="40px"/>
                 </a>
-            </div>
+              </div>
             <div class="links-home">
                 <ejs-menu [items]='menuItems'>
                     <ng-template #template let-menuItems="">
@@ -32,24 +32,40 @@
                 <div id="menu-mobile" (click)="openNav()">
                     <i class="fa fa-bars"></i>
                 </div>
+                <div class="languages">
                 <span class="lang" (click)="changeLanguage('es')">ESP</span>
                 <span class="lang" (click)="changeLanguage('en')">ENG</span>
-
+            </div>
             </div>
         </div>
 
         <div class="current-section">
-            <span><a href="https://www.redalyc.org/" target="_blank">{{ 'header.redalyc' | translate}}</a> > <a
-                    [routerLink]="['/home']">{{ 'general.proyecto' | translate }}</a> <span *ngIf='currentSection'> > {{
-                    currentSection | translate}}</span></span>
-            <span class="socials-networks">
-                <a href="https://www.instagram.com/redalyc_oficial" target="_blank"><img class="instragram"
-                        src="assets/img/icons/ig.png"></a>
-                <a href="https://twitter.com/Redalyc" target="_blank"><img class="twitter"
-                        src="assets/img/icons/tw.png"></a>
-                <a href="https://www.facebook.com/Redalyc/" target="_blank"><img class="facebook"
-                        src="assets/img/icons/face.png"></a>
-            </span>
-        </div>
+            <span
+              ><a href="https://www.redalyc.org/" target="_blank">{{
+                "header.redalyc" | translate
+              }}</a>
+              > <a [routerLink]="['/home']">{{ "general.proyecto" | translate }}</a>
+              <span *ngIf="currentSection">
+                > {{ currentSection | translate }}</span
+              ></span
+            >
+            <div class="socials-and-languages">
+              <div class="socials-networks">
+                <a href="https://www.instagram.com/redalyc_oficial" target="_blank"
+                  ><img class="instagram" src="assets/img/icons/ig-logo-dark.png"
+                /></a>
+                <a href="https://twitter.com/Redalyc" target="_blank"
+                  ><img class="twitter" src="assets/img/icons/x-logo-dark.png"
+                /></a>
+                <a href="https://www.facebook.com/Redalyc/" target="_blank"
+                  ><img class="facebook" src="assets/img/icons/fb-logo-dark.png"
+                /></a>
+              </div>
+              <div class="languages-r">
+                <span class="lang" (click)="changeLanguage('es')">ESP</span>
+                <span class="lang" (click)="changeLanguage('en')">ENG</span>
+              </div>
+            </div>
+          </div>
     </div>
 </div>

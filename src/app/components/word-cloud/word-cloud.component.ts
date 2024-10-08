@@ -31,7 +31,7 @@ export class WordCloudComponent implements OnInit {
       const series = chart2.series.push(new am4plugins_wordCloud.WordCloudSeries());
       series.randomness = 0.1;
       series.rotationThreshold = 0.5;
-      series.dataSource.url = 'assets/json/palabrasClimatico2.json';
+      series.dataSource.url = 'assets/json/palabrasPobreza.json';
 
       series.dataFields.word = 'word';
       series.dataFields.value = 'weight';
