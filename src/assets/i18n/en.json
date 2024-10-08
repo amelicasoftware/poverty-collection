@@ -102,12 +102,17 @@
         "proyecto": "Semantic Collection for Climate Action",
         "titulo": "Redalyc Semantic Collection",
         "titulo2": "for the Sustainable Development Goals",
-        "subtitulo": "13 CLIMATE ACTION"
+        "subtitulo": "1 NO POVERTY"
     },
     "footer": {
         "copyright": "Redalyc's System of Scientific Information ®",
         "copyright2": "Network of non-commercial academy-owned Open Access Scholarly and Scientific Journals.",
-        "version": "Redalyc 2021 Version 5.0 | 2022",
+        "version": "Redalyc Version 5.0 | 2003 - 2024",
         "correo": "redalyc@redalyc.org"
+    },
+    "mHeader": {
+        "title": "Redalyc's System of Scientific Information",
+        "desc1": "Network of diamond Open Access scientific journals",
+        "desc2": "Academia-owned non-commercial open infrastructure"
     }
 }
