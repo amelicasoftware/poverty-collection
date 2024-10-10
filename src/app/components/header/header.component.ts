@@ -134,20 +134,53 @@ export class HeaderComponent implements OnInit {
   ];
 
   constructor(
-    private translationService: TranslationService
+    private translationService: TranslationService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
   }
 
   openNav(): void {
-    /* this.menu.openNav(); */
+    this.menuOpen = !this.menuOpen;
+    console.log(this.menuOpen);
+  }
+
+  closeMenu(): void {
+    if (this.menuOpen) {
+      this.menuOpen = false;
+    }
+  }
+
+  toCould() {
+    document.getElementById("could").scrollIntoView({ behavior: "smooth" });
+    this.selection = 2;
+  }
+  toSearcher() {
+    document.getElementById("searcher").scrollIntoView({ behavior: "smooth" });
+    this.selection = 1;
+  }
+  toNetwork() {
+    document.getElementById("network").scrollIntoView({ behavior: "smooth" });
+    this.selection = 3;
+  }
+  toMap() {
+    document.getElementById("map").scrollIntoView({ behavior: "smooth" });
+    this.selection = 4; // Set the selection explicitly
+  }
+  toSparql() {
+    document.getElementById("sparql").scrollIntoView({ behavior: "smooth" });
+    this.selection = 5;
+  }
+  toAbout() {
+    this.router.navigate(["/acerca-de"]);
   }
 
   changeLanguage(lang: string): void {
     this.translationService.changeLanguage(lang);
   }
 
+  
   @HostListener('window:scroll', [])
   onWindowScroll() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
