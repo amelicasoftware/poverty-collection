@@ -18,17 +18,9 @@
 }
 
 body {
-    margin-top: 250px;
+    margin:0 ;
     font-family: Barlow-Regular;
 }
-
-@media only screen and (max-width: 480px) {
-    body {
-        margin-top: 280px;
-    }
-
-}
-
 
 /* Estilos modificados de la libreria ej2-angular-navigations con respecto al diseño enviado por la empresa */
 
