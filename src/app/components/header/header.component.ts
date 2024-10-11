@@ -1,6 +1,6 @@
-import { Component, OnInit, Input } from "@angular/core";
-import { MenuItemModel } from "@syncfusion/ej2-angular-navigations";
-import { TranslationService } from "../../services/translation.service";
+import { Component, OnInit, Input, HostListener } from '@angular/core';
+import { MenuItemModel } from '@syncfusion/ej2-angular-navigations';
+import { TranslationService } from '../../services/translation.service';
 import { Router } from "@angular/router";
 
 @Component({
@@ -9,10 +9,11 @@ import { Router } from "@angular/router";
   styleUrls: ["./header.component.css"],
 })
 export class HeaderComponent implements OnInit {
+  @Input() currentSection: string;
   menuOpen: boolean = false;
   selection: number;
-
-  @Input() currentSection: string;
+  isHidden: boolean = false;
+  isShow: boolean = false;
 
   public menuItems: MenuItemModel[] = [
     {
@@ -135,7 +136,7 @@ export class HeaderComponent implements OnInit {
   constructor(
     private translationService: TranslationService,
     private router: Router
-  ) {}
+  ) { }
 
   ngOnInit(): void {}
 
@@ -177,4 +178,20 @@ export class HeaderComponent implements OnInit {
   changeLanguage(lang: string): void {
     this.translationService.changeLanguage(lang);
   }
+
+  
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    const scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    const triggerPoint = 500; 
+    this.isShow  = scrollPosition > 300;
+
+    if (scrollTop >= triggerPoint) {
+      this.isHidden = true;
+    } else {
+      this.isHidden = false;
+    }
+  }
+
 }
